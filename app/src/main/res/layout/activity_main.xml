@@ -16,7 +16,7 @@
         android:layout_marginEnd="@dimen/standard_margin"
         android:layout_marginRight="@dimen/standard_margin"
         android:layout_marginBottom="@dimen/standard_margin"
-        android:numColumns="3"
+        android:numColumns="4"
         android:stretchMode="columnWidth"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.33" />
 
     <ImageView
         android:id="@+id/imgLarge"
@@ -41,7 +41,7 @@
         android:layout_marginRight="@dimen/standard_margin"
         android:layout_marginBottom="@dimen/standard_margin"
         android:contentDescription="@string/imgLarge"
-        android:scaleType="centerCrop"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
